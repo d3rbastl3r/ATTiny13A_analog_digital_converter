@@ -24,9 +24,9 @@ void initADC() {
 
     ADCSRA =
         (1 << ADEN)  |     // Enable ADC
-        (1 << ADPS2) |     // set prescaler to 64, bit 2
-        (1 << ADPS1) |     // set prescaler to 64, bit 1
-        (1 << ADPS0);      // set prescaler to 64, bit 0
+        (1 << ADPS2) |     // set prescaler to 128, bit 2
+        (1 << ADPS1) |     // set prescaler to 128, bit 1
+        (1 << ADPS0);      // set prescaler to 128, bit 0
 }
 
 void setup() {
